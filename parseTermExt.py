@@ -95,18 +95,8 @@ class Load(object):
         else:
             return ''
 
-## - ADXXTSDK.DAT (Docker)
-## - ADXXTSJP.DAT (Embedded JavaPOS)
-## - ADXXTSGT.DAT (GTK)
-## - ADXXTSFF.DAT (Mozilla based Web Mbrowser)
-## - ADXXTSPG.DAT (PostgreSQL)
-## - ADXXTSNO.DAT (Netop)
-## - ADXXTSRT.DAT (RXTX)
-## - ADXXTSJ8.DAT (TDK8)
-## - ADXXTSSH.DAT (SSH)
-
 terminalsToAdd = '001-020,022-040,042-060'
-extensionsToAdd = "ADXXTSDK.DAT,ADXXTSFF.DAT,ADXXTSSH.DAT"
+extensionsToAdd = ""
 locationDefault = "adx_spgm:"
 
 #Borramos los espacios en el string de extensiones
